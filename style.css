@@ -191,6 +191,11 @@ button#botao-apagar img {
   margin-right: 12px;
 }
 
+.perfis{
+  flex-direction:row;
+  display: flex;
+}
+
 /* @media screen and (max-width: 1250px) {
   h1{
     display: none;
