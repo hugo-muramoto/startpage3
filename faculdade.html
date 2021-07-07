@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Startpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="conteudo">
+      <header>
+        <div>
+          <h1 style="color:#36454F">Olá,&nbsp;<span style="color:#FFAE42">Hugo</span>.</h1>
+          <h3 style="color:#36454F">Hoje é&nbsp;<span id='mensagem' style='color:#FFAE42'></span>.</h3>
+        </div>
+        <h2 id='relogio' style='color:#36454F'></h2>
+      </header>
+
+      <div class="meio">
+
+        <center><a href='https://mail.google.com/mail/u/1/#'><img draggable="false" id='google-img' src='imagens/h.webp'></a></center>
+
+        <div id="pesquisa">
+          <input id="texto" type="text" placeholder="Pesquisar..."/>
+          <button id="botao-apagar" onclick="apagar()"><img draggable="false" src="imagens/x.svg"></button>
+          <button id="botao-pesquisar" onclick="pesquisar()"><img draggable="false" src="imagens/lupa.svg"></button>
+          <span id='borda'></span>
+        </div>
+
+        <div class="links">
+          <ol>
+            <a id="gif" href="https://drive.google.com/drive/u/1/my-drive"><img draggable="false" src="imagens/drive.png"></a>
+            <a id="gif" href="https://geogebra.org/classic"><img draggable="false" src="imagens/geogebra.png"></a>
+            <a id="gif" href="https://ibmec.br/"><img draggable="false" src="imagens/ibmec.png"></a>
+            <a id="gif" href="https://sia.ibmec.br/sianet/logon"><img draggable="false" src="imagens/sia.png"></a>
+            <a id="gif" href="https://linkedin.com/"><img draggable="false" src="imagens/linkedin.png"></a>
+          </ol>
+        </div>
+        <footer>
+          <p><b>Hugo Muramoto</b>&emsp;&emsp;
+            <a href='mailto:hugo.muramoto@gmail.com'>Contato</a><span class='espaco'>&emsp;|&emsp;</span>
+            <a href='https://github.com/hugo-muramoto'>Github</a><span class='espaco'>&emsp;|&emsp;</span>
+            <a href='https://br.linkedin.com/in/hugo-muramoto'>Linkedin</a>
+          </p>
+        </footer>
+      </div>
+    </div>
+    <script src="main.js"></script>
+
+  </body>
+</html>
