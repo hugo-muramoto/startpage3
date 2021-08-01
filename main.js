@@ -116,10 +116,10 @@ const searchEngines = {
 }
 
 if (!Object.keys(searchEngines).includes(searchEngine)) {
-    searchEngine = "Google"
+    searchEngine = "Brave"
 }
 
-var searchEngine = 'Google';
+var searchEngine = 'Brave';
 
 var searchUrl = searchEngines[searchEngine];
 
