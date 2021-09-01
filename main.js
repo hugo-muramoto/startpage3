@@ -116,10 +116,10 @@ const searchEngines = {
 }
 
 if (!Object.keys(searchEngines).includes(searchEngine)) {
-    searchEngine = "Duckduckgo"
+    searchEngine = "Brave"
 }
 
-var searchEngine = 'Duckduckgo';
+var searchEngine = 'Brave';
 
 var searchUrl = searchEngines[searchEngine];
 
