@@ -111,15 +111,15 @@ document.getElementById('relogio').innerHTML = relogio();
 
 const searchEngines = {
   Google: 'https://www.google.com.br/search?q=',
-  Duckduckgo: "https://duckduckgo.com/?q=",
+  Duck: "https://duckduckgo.com/?q=",
   Brave: "https://search.brave.com/search?q=",
 }
 
 if (!Object.keys(searchEngines).includes(searchEngine)) {
-    searchEngine = "Brave"
+    searchEngine = "Duck"
 }
 
-var searchEngine = 'Brave';
+var searchEngine = 'Duck';
 
 var searchUrl = searchEngines[searchEngine];
 
